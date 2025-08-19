@@ -29,7 +29,7 @@ const Form = () => {
       <div className="w-full h-max pb-5 flex justify-center items-center">
         
         {/* سيتم حقن الفورم هنا */}
-        <div ref={formRef} className="w-full "></div>
+        <div ref={formRef} id="bitrix-form-root" className="w-full "></div>
       </div>
     </section>
   );
