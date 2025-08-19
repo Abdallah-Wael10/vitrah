@@ -55,7 +55,7 @@ const HeroSection = () => {
 
               {/* CTA Buttons */}
               <div className="flex flex-col gap-4 justify-center lg:justify-end items-center">
-                <a href="#form" className="w-full lg:w-auto group relative bg-gradient-to-r from-[#ff5003] to-[#e6460a] text-white px-8 py-4 text-lg font-bold rounded-2xl overflow-hidden transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#ff5003]/30 transform hover:-translate-y-1">
+                <a href="#bitrix-form-root" className="w-full lg:w-auto group relative bg-gradient-to-r from-[#ff5003] to-[#e6460a] text-white px-8 py-4 text-lg font-bold rounded-2xl overflow-hidden transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#ff5003]/30 transform hover:-translate-y-1">
                   <span className="relative z-10">ابدأ رحلة الصحة</span>
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                 </a>

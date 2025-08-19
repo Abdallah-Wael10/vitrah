@@ -164,7 +164,7 @@ const Content = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-6 sm:mb-8">
               <a
-                href="#form"
+                href="#bitrix-form-root"
                 className="w-full sm:w-auto group relative bg-gradient-to-r from-[#ff5003] to-[#ff5003] text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-black rounded-xl overflow-hidden transition-all duration-500 shadow-xl hover:shadow-[#ff5003]/50 transform hover:-translate-y-2 hover:scale-105"
               >
                 <span className="relative z-10 flex items-center justify-center">

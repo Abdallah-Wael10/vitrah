@@ -3,25 +3,28 @@ import React, { useEffect } from "react";
 
 const Form = () => {
   useEffect(() => {
-    (function (w, d, u) {
-      var s = d.createElement("script");
-      s.async = true;
-      s.setAttribute("data-b24-form", "inline/9/fkvwvi");
-      s.setAttribute("data-skip-moving", "true");
-      s.setAttribute("data-b24-form-container", "bitrix-form-root"); // هنا الإضافة المهمة
-      s.src = u + "?" + ((Date.now() / 180000) | 0);
-      var h = d.getElementsByTagName("script")[0];
-      h.parentNode.insertBefore(s, h);
-    })(
-      window,
-      document,
-      "https://cdn.bitrix24.com/b31758109/crm/form/loader_9.js"
-    );
+    const script = document.createElement("script");
+    script.async = true;
+    script.setAttribute("data-b24-form", "inline/9/fkvwvi");
+    script.setAttribute("data-skip-moving", "true");
+    script.setAttribute("data-b24-form-container", "bitrix-form-root");
+    script.src =
+      "https://cdn.bitrix24.com/b31758109/crm/form/loader_9.js?" +
+      ((Date.now() / 180000) | 0);
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
 
   return (
-      <div id="bitrix-form-root"></div>
-
+    <section className="w-full h-max pt-5 pb-5 flex justify-center items-center ">
+      <div className="w-full h-max flex justify-center items-center">
+        {/* هنا هيظهر الفورم من Bitrix */}
+        <div id="bitrix-form-root" className="w-full"></div>
+      </div>
+    </section>
   );
 };
 
