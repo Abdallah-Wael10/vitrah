@@ -53,15 +53,15 @@ const Content = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-2 sm:gap-4 text-sm sm:text-base text-[#1C1C1C]">
-              <span className="flex items-center gap-1 bg-gradient-to-r from-white/80 to-white px-3 sm:px-4 py-2 sm:py-3 rounded-xl shadow-md border border-[#1C1C1C]/10 transition-transform hover:scale-105">
+              <span className="flex items-center gap-1 bg-gradient-to-r from-white/80 to-white px-3 sm:px-4 py-2 sm:py-3 rounded-xl shadow-md border border-[#1C1C1C]/10 transition-transform hover:scale-105 max-[900px]:flex max-[900px]:justify-center max-[900px]:items-center max-[900px]:gap-2">
                 <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-[#ff5003] ml-2 sm:ml-4" />
                 يحس إنه قوي
               </span>
-              <span className="flex items-center gap-1 bg-gradient-to-r from-white/80 to-white px-3 sm:px-4 py-2 sm:py-3 rounded-xl shadow-md border border-[#1C1C1C]/10 transition-transform hover:scale-105">
+              <span className="flex items-center gap-1 bg-gradient-to-r from-white/80 to-white px-3 sm:px-4 py-2 sm:py-3 rounded-xl shadow-md border border-[#1C1C1C]/10 transition-transform hover:scale-105 max-[900px]:flex max-[900px]:justify-center max-[900px]:items-center max-[900px]:gap-2">
                 <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-[#ff5003] ml-2 sm:ml-4" />
                 مرتاح
               </span>
-              <span className="flex items-center gap-1 bg-gradient-to-r from-white/80 to-white px-3 sm:px-4 py-2 sm:py-3 rounded-xl shadow-md border border-[#1C1C1C]/10 transition-transform hover:scale-105">
+              <span className="flex items-center gap-1 bg-gradient-to-r from-white/80 to-white px-3 sm:px-4 py-2 sm:py-3 rounded-xl shadow-md border border-[#1C1C1C]/10 transition-transform hover:scale-105 max-[900px]:flex max-[900px]:justify-center max-[900px]:items-center max-[900px]:gap-2">
                 <Star className="w-4 h-4 sm:w-5 sm:h-5 text-[#ff5003] ml-2 sm:ml-4" />
                 واثق في نفسه
               </span>
@@ -72,8 +72,8 @@ const Content = () => {
         {/* Why Early Detection Section */}
         <div className="mb-16 sm:mb-20 lg:mb-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-center">
-            <div className="order-2 lg:order-1">
-              <div className="bg-white/95 backdrop-blur-xl rounded-2xl p-5 sm:p-7 shadow-xl border border-white/20 hover:shadow-2xl transition-all duration-500">
+            <div className="order-2 lg:order-1 max-[900px]:flex max-[900px]:justify-center max-[900px]:items-center max-[900px]:gap-2">
+              <div className="bg-white/95 backdrop-blur-xl rounded-2xl p-5 sm:p-7 shadow-xl border border-white/20 hover:shadow-2xl transition-all duration-500 max-[650px]:w-[90%] max-[900px]:w-[70%] max-[900px]:flex max-[900px]:justify-center max-[900px]:items-center max-[900px]:flex-col ">
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-4 sm:mb-6">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-[#1C1C1C]/10 to-[#1C1C1C]/5 rounded-xl flex items-center justify-center mb-3 sm:mb-0 sm:ml-6">
                     <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-[#ff5003]" />
